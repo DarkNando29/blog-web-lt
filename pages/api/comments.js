@@ -1,6 +1,6 @@
 import { GraphQLClient, gql } from 'graphql-request';
 
-const graphQLAPI:string = process.env.NEXT_PUBLIC_BLOG_ENDPOINT || ''
+const graphQLAPI = process.env.NEXT_PUBLIC_BLOG_ENDPOINT || ''
 
 /** *************************************************************
 * Any file inside the folder pages/api is mapped to /api/* and  *
